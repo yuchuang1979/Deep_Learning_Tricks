@@ -1,0 +1,1 @@
+python ..\..\pre-bin\convnet.py --train-range=1-5 --test-range=6 --save-path=..\models --layer-def=..\layers\layers-conv-local-11pct.cfg --layer-params=..\layers\layer-params-conv-local-11pct.cfg --data-provider=cifar --data-path=D:\Project\Cuda-ConvNet-NEC\SampleData\cifar-10-py-colmajor --test-freq=14 --epochs=600 --mean=0 --gpu=1 > ..\logs\600.log

@@ -1,0 +1,1 @@
+..\..\..\..\bin\convnet.py -f ..\models\ConvNet__2014-08-08_17.42.35 --test-freq=4 --epochs=650 --gpu=1 > ..\logs\600.log

@@ -1,0 +1,1 @@
+..\bin\convnet.py --train-range=1-5 --test-range=6 --save-path=..\tmp --layer-def=..\layers\layers-19pct.cfg --layer-params=..\layers\layer-params-19pct.cfg --data-provider=cifar --data-path=e:\dataset\cifar-10 --test-freq=7 --epochs=150
